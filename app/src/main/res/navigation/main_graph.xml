@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/registroFragment">
+
+    <fragment
+        android:id="@+id/registroFragment"
+        android:name="com.gvm.valory.ui.registro.RegistroFragment"
+        android:label="fragment_registro"
+        tools:layout="@layout/fragment_registro" />
+    <fragment
+        android:id="@+id/ajustesFragment"
+        android:name="com.gvm.valory.ui.ajustes.AjustesFragment"
+        android:label="fragment_ajustes"
+        tools:layout="@layout/fragment_ajustes" />
+    <fragment
+        android:id="@+id/graficoFragment"
+        android:name="com.gvm.valory.ui.grafico.GraficoFragment"
+        android:label="fragment_grafico"
+        tools:layout="@layout/fragment_grafico" />
+
+</navigation>
