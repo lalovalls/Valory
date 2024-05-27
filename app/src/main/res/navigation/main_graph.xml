@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/registroFragment"
-        android:name="com.gvm.valory.ui.registro.RegistroFragment"
+        android:name="com.gvm.valory.ui.registro.principal.RegistroFragment"
         android:label="fragment_registro"
         tools:layout="@layout/fragment_registro" />
     <fragment
