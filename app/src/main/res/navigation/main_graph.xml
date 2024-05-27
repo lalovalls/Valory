@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_registro" />
     <fragment
         android:id="@+id/ajustesFragment"
-        android:name="com.gvm.valory.ui.ajustes.AjustesFragment"
+        android:name="com.gvm.valory.ui.ajustes.com.gvm.valory.ui.ajustes.AjustesFragment"
         android:label="fragment_ajustes"
         tools:layout="@layout/fragment_ajustes" />
     <fragment
